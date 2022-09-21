@@ -1,0 +1,13 @@
+/* 公共样式 */
+.body-class {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+.page-enter-active,.page-leave-active{
+    transition: opacity .5s;
+}
+.page-enter,.page-leave-active{
+    opacity: 0;
+}
